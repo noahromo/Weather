@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822D1184283025DA000055F1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822D1183283025DA000055F1 /* ListView.swift */; };
+		823959152831928E00176A6F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823959142831928E00176A6F /* WeatherView.swift */; };
+		826B8E192717533300E62139 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B8E182717533200E62139 /* WeatherButton.swift */; };
 		828DFAE3262EA42E00EE1398 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DFAE2262EA42E00EE1398 /* WeatherApp.swift */; };
-		828DFAE5262EA42E00EE1398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DFAE4262EA42E00EE1398 /* ContentView.swift */; };
 		828DFAE7262EA43800EE1398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828DFAE6262EA43800EE1398 /* Assets.xcassets */; };
 		828DFAEA262EA43800EE1398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828DFAE9262EA43800EE1398 /* Preview Assets.xcassets */; };
+		82D9CEA6282E4D18009A277E /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9CEA5282E4D18009A277E /* Cities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		822D1183283025DA000055F1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		823959142831928E00176A6F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		826B8E182717533200E62139 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 		828DFADF262EA42E00EE1398 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		828DFAE2262EA42E00EE1398 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
-		828DFAE4262EA42E00EE1398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		828DFAE6262EA43800EE1398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		828DFAE9262EA43800EE1398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		828DFAEB262EA43800EE1398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D9CEA5282E4D18009A277E /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				828DFAE2262EA42E00EE1398 /* WeatherApp.swift */,
-				828DFAE4262EA42E00EE1398 /* ContentView.swift */,
+				822D1183283025DA000055F1 /* ListView.swift */,
+				823959142831928E00176A6F /* WeatherView.swift */,
+				826B8E182717533200E62139 /* WeatherButton.swift */,
+				82D9CEA5282E4D18009A277E /* Cities.swift */,
 				828DFAE6262EA43800EE1398 /* Assets.xcassets */,
 				828DFAEB262EA43800EE1398 /* Info.plist */,
 				828DFAE8262EA43800EE1398 /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828DFAE5262EA42E00EE1398 /* ContentView.swift in Sources */,
+				82D9CEA6282E4D18009A277E /* Cities.swift in Sources */,
 				828DFAE3262EA42E00EE1398 /* WeatherApp.swift in Sources */,
+				822D1184283025DA000055F1 /* ListView.swift in Sources */,
+				823959152831928E00176A6F /* WeatherView.swift in Sources */,
+				826B8E192717533300E62139 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +284,7 @@
 				DEVELOPMENT_TEAM = 3V355YA5RV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +306,7 @@
 				DEVELOPMENT_TEAM = 3V355YA5RV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
