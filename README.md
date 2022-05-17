@@ -20,16 +20,8 @@ Framework: SwiftUI
 * Data on global cities is in Cities.swift
 * Weather button is in WeatherButton.swift
 
-## Walkthrough
+## Walkthrough 
 
-Main weather list screen: 
+Example of city list, daytime forcast, and nighttime forcast:
 
-![]()
-
-Individual daytime screen:
-
-![]()
-
-Individual nighttime screen:
-
-![]()
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/86748575/168734940-7dd4f3f1-55a6-48cb-823c-91ae43e79b5c.gif)
