@@ -18,7 +18,7 @@ struct WeatherView: View {
             VStack {
                 CityTextView(cityName: city.cityName)
                 
-                MainWeatherStatusView(imageName: isNight ? city.currentImageNameNight : city.currentImageNameDay, temperature: 76)
+                MainWeatherStatusView(imageName: isNight ? city.currentImageNameNight : city.currentImageNameDay, temperature: isNight ? city.currentTemperatureNight : city.currentTemperatureDay)
                 
                 HStack(spacing: 20) {
                     WeatherDayView(dayOfWeek: city.cityForcast[0].dayOfWeek, // Turn into passable data model!!!

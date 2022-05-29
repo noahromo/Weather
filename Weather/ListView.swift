@@ -5,11 +5,9 @@
 //  Created by Noah Romo on 5/14/22.
 //
 //  To-do:
-//  1. Refactor
-//  2. Feature Ideas
+//  1. Feature Ideas:
 //     a. Set up next 5 days of weather based on current day
 //     b. Create a network call from a basic weather api
-//     c. Custom navigation bar back button
 
 import SwiftUI
 
@@ -40,7 +38,7 @@ struct ListView: View {
                                 
                                 Spacer()
                                 
-                                Text("\(city.currentTemperature)°")
+                                Text("\(city.currentTemperatureDay)°")
                                     .font(.system(size: 50, weight: .medium))
                                     .foregroundColor(.white)
                             }
@@ -51,6 +49,7 @@ struct ListView: View {
             }
             .navigationTitle("Weather")
         }
+        .accentColor(.white)
     }
 }
 
